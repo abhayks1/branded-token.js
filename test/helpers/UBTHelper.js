@@ -9,10 +9,10 @@ const Setup = Package.EconomySetup,
   OrganizationHelper = Setup.OrganizationHelper,
   UBTHelper = Setup.UtilityBrandedTokenHelper,
   assert = chai.assert,
-  config = require('../../tests/utils/configReader'),
-  Web3WalletHelper = require('../../tests/utils/Web3WalletHelper'),
-  Contracts = require('../../libs/Contracts'),
-  KeepAliveConfig = require('../../tests/utils/KeepAliveConfig');
+  config = require('../utils/configReader'),
+  Web3WalletHelper = require('../utils/Web3WalletHelper'),
+  Contracts = require('../../lib/Contracts'),
+  KeepAliveConfig = require('../utils/KeepAliveConfig');
 
 const web3 = new Web3(config.gethRpcEndPoint);
 let web3WalletHelper = new Web3WalletHelper(web3),
