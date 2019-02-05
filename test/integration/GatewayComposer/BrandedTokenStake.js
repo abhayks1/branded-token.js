@@ -4,7 +4,7 @@
 const chai = require('chai'),
   Web3 = require('web3'),
   Package = require('./../../../index'),
-  Mosaic = require('@openstfoundation/mosaic-tbd');
+  Mosaic = require('@openstfoundation/mosaic.js');
 
 const Setup = Package.EconomySetup,
   OrganizationHelper = Setup.OrganizationHelper,

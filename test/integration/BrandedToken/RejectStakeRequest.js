@@ -3,8 +3,7 @@
 // Load external packages
 const chai = require('chai'),
   Web3 = require('web3'),
-  Package = require('../../../index'),
-  Mosaic = require('@openstfoundation/mosaic-tbd');
+  Package = require('../../../index');
 
 const Setup = Package.EconomySetup,
   OrganizationHelper = Setup.OrganizationHelper,
